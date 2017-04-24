@@ -10,6 +10,8 @@
          symbolo numbero
          absento)
 
+(print-as-expression #f)
+
 ;; extra stuff for racket
 ;; due mostly to samth
 (define (list-sort f l) (sort l f))
